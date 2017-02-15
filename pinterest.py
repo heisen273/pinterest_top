@@ -1,9 +1,9 @@
 import requests
 from operator import itemgetter
 
-token = raw_input('\nenter access token. . .')
+token = raw_input('\nenter access token:  ')
 
-board = raw_input('\nenter board. . .')
+board = raw_input('\nenter board:  ')
 link = 'https://api.pinterest.com/v1/boards/' + board + '/pins/?access_token='+token+'&fields=counts%2Curl'
 #link = 'https://api.pinterest.com/v1/boards/' + board + '/pins/?access_token='+token+'&fields=counts'
 r = requests.get(link)
