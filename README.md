@@ -2,7 +2,7 @@
 
 Как юзать: 
 
-https://developers.pinterest.com/tools/api-explorer/?
+https://developers.pinterest.com/tools/api-explorer/
 
 Здесь жмешь "Retrieve the pins on a Board", затем "Get Token": 
 
